@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="holographic-container">
+                <div class="hover-underline">Hover for underline</div>
+                <div class="holographic-card">
+                    <a href="/indexs.html">Home</a>
+                </div>
+                <div class="holographic-card">
+                    <a href="/About.html">About</a>
+                </div>
+                <div class="holographic-card">
+                    <a href="/Contact.html">Contact</a>
+                </div>
+                <div class="holographic-card">
+                    <a href="/Gallary.html">Gallary</a>
+                </div>
+            </div>
+        </nav>
+        <section>
+            <div class="wave">
+                <span></span>
+                <span></span>
+                <span></span>
+                <div class="content">
+
+                </div>
+                <div id="container">
+                    Make
+                    <div id=flip>
+                        <div>
+                            <div>wOrK</div>
+                        </div>
+                        <div>
+                            <div>lifeStyle</div>
+                        </div>
+                        <div>
+                            <div>Everything</div>
+                        </div>
+                    </div>
+                </div>
+                AweSoMe!
+            </div>
+        </section>
+    </header>
+    <div class="relative">
+  <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-green-200 to-blue-200">
+    <div class="wrap animate pop">
+	<div class="overlay">
+		<div class="overlay-content animate slide-left delay-2">
+			<h1 class="animate slide-left pop delay-4">Trees</h1>
+			<p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">Kingdom: <em>Plantae</em></p>
+		</div>
+		<div class="image-content animate slide delay-5"></div>
+		<div class="dots animate">
+			<div class="dot animate slide-up delay-6"></div>
+			<div class="dot animate slide-up delay-7"></div>
+			<div class="dot animate slide-up delay-8"></div>
+		</div>
+	</div>
+	<div class="text">
+		<p><img class="inset" src="https://assets.codepen.io/4787486/oak_1.jpg" alt="" />Trees are woody perennial plants that are a member of the kingdom <em>Plantae</em>. All species of trees are grouped by their genus, family, and order. This helps make identifying and studying trees easier.</p>
+		<p>Apart from providing oxygen for the planet and beauty when they bloom or turn color, trees are very useful. Certain species of hardwood and softwood trees are excellent for timber, making furniture, and paper.</p>
+		<p>When managed properly, trees are a good source of renewable energy and construction material.</p>
+		<img class="tree" src="https://assets.codepen.io/4787486/tree+clipart.jpeg" alt="" />
+	</div>
+</div>
+  </div>
+  <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-indigo-800 to-purple-800 text-white background: black;">
+    <svg width="1600px" height="800px">
+<defs>
+  <filter id="turbulent-dissolve" x="0%" y="0%">
+  <feTurbulence type="fractalNoise" baseFrequency=".012"/>
+   <feColorMatrix type="luminanceToAlpha"/>
+   <feComponentTransfer>
+      <feFuncA type="linear" slope="0">
+        <animate attributeName="slope" values="0;0;0;0;0;0.5;1;1.5;2;2;2;2;2;2;1.5;1;0.5;0" dur="8s" repeatCount="indefinite"/>
+     </feFuncA>
+    </feComponentTransfer>
+    
+    <feComponentTransfer>
+      <feFuncA type="discrete" tableValues="0 1"/>
+    </feComponentTransfer>
+     <feGaussianBlur stdDeviation="1"/>
+    <feComposite operator="in" in="SourceGraphic" result="overlay"/>
+    
+    <feImage xlink:href="https://ykob.github.io/glsl-dissolve/img/osaka02.jpg" width="800" height="600" result="underlay"/>
+    <feComposite operator="over" in="overlay" in2="underlay"/>
+  </filter>
+  </defs>
+
+  
+  <image filter="url(#turbulent-dissolve)" width="800" height="600" xlink:href="https://ykob.github.io/glsl-dissolve/img/osaka01.jpg"/>
+  
+</svg>
+  </div>
+  <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-purple-800 to-pink-800 text-white flex">
+    <div class="imges">
+        <img src="/Images/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.avif" alt="" srcset="" >
+    </div>
+  </div>
+  <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-blue-200 to-indigo-100 text-black">
+    <div class="gallery">
+  <img src="https://picsum.photos/id/582/400/400" alt="a wolf">
+  <img src="https://picsum.photos/id/1074/400/400" alt="a lioness">
+  <p style="color: rgb(24, 106, 177);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repudiandae explicabo ab similique atque earum, quia illum voluptatibus deserunt delectus voluptates corporis qui totam, impedit nulla. Nobis placeat, optio molestias similique fugit architecto, tempora, nihil consequuntur nostrum eos rem a animi repellat. Ratione, eos. Corrupti.</p>
+</div>
+  </div>
+</div>
+
+<script src="https://cdn.tailwindcss.com">
+</script>
+    <footer>
+  <p>© 2026 Ajay | All Rights Reserved</p>
+</footer>
+</body>
+<script src="/script.js"></script>
+</html>
